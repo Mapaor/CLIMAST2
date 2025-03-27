@@ -1,4 +1,4 @@
-##CLIMAST Program ('Interdisciplinary training in climate sciences for master students') #http://www.climast.fr/ #Contact: m.santolaria-otin@meteo.ub.edu
+#CLIMAST Program ('Interdisciplinary training in climate sciences for master students') #http://www.climast.fr/ #Contact: m.santolaria-otin@meteo.ub.edu
 
 Python Practical Exercice
 
@@ -15,7 +15,10 @@ conda activate practicasenv
 
 and install some packages:
 
-conda install -c anaconda basemap conda install -c anaconda xarray conda install -c anaconda xarray conda install -c anaconda scipy
+conda install -c anaconda basemap 
+conda install -c anaconda xarray 
+conda install -c anaconda xarray 
+conda install -c anaconda scipy
 
 Info: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
@@ -24,4 +27,3 @@ https://anaconda.org/anaconda/basemap https://anaconda.org/conda-forge/netcdf4 h
 USEFUL INFO
 
 About CMIP6: https://pcmdi.llnl.gov/CMIP6/Guide/dataUsers.html
-# CLIMAST2
