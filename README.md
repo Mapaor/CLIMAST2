@@ -1,42 +1,21 @@
-#CLIMAST Program ('Interdisciplinary training in climate sciences for master students') 
-#http://www.climast.fr/ 
-#Contact: m.santolaria-otin@meteo.ub.edu
+### Passos
 
-Python Practical Exercice 
-
-Introduction of CMIP Architecture
-Large Ensemble model
-Basic statistical analysis
-
-This repository contains:
-1) The README.md file
-2) /scripts/: some scrips .py and one notebook .pynb as the basic example using numpy for the practical exercise in CLIMAST.
-3) /AnalysisLargeEnsemble/: some scripts to plot, compute basic statistics with Large Ensemble models that you can use or that they can inspire you to develop your own scripts.s
-
------------------------------------------------------------
-
-GET READY (PYTHON - NUMPY)
-
-Use the terminal or an Anaconda Prompt for the following steps: To create an environment: conda create --name practicasenv
-
-Let’s install some packages, so first let’s activate our environment, “to work inside it”:
-
-conda activate practicasenv
-
-and install some packages:
-
-conda install -c anaconda basemap 
-conda install -c anaconda scipy
-
-Info: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
-
-https://anaconda.org/anaconda/basemap https://anaconda.org/conda-forge/netcdf4 https://anaconda.org/anaconda/scipy
-
-IF YOU WANT TO GO FURTHER...investigate xarray library
-https://anaconda.org/anaconda/xarray 
-https://docs.xarray.dev/en/stable/gallery.html
-
-
-USEFUL INFO
-
-About CMIP6: https://pcmdi.llnl.gov/CMIP6/Guide/dataUsers.html
+1. Instal·lar miniconda
+2. Afegir-lo al PATH
+3. Reiniciar la terminal
+4. Fer `conda activate base`
+5. Instal·lar els següents paquets
+   1. pandas
+   2. scipy
+   3. numpy
+   4. matplotlib
+   5. cartopy
+   6. xarray
+   7. netcdf4
+6. Baixar aquest repositori com a .zip, descompirmir-lo i obrir-lo en el  VSCode
+7. Obrir el `scripts/spatial_calculation_onemember_numpy.ipynb`
+8. Executar la 1a cel·la (s'instal·larà el kernel de Python i algunes extensions com Jupyter)
+9. Quan ja estiguin instal·lades totes les llibreries correctament deixarà de donar error
+10. Baixar el vostre arxiu de mebre i posar-lo dins la carpeta `member_data`
+11. Posar el número de mebre a la cel·la 2
+12. Executar la resta de cel·les
