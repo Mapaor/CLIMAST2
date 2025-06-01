@@ -104,4 +104,5 @@
     Pel número que us ha tocat.
 14. Executa la cel·la 2 i seguidament la 3. Si no dona error ja estàs llegint correctament el fitxer de dades.
 15. Executa les següents cel·les, en la 7 s'hauria de generar un mapa de la climatologia.
-16. Si fins aquí no hi ha hagut cap error, ja tot va bé. Executa la resta de cel·les una a una.
+16. Si fins aquí no hi ha hagut cap error, ja tot va bé. Executa la resta de cel·les una a una, i guarda't les gràfiques generades.
+17. Canvia ara la variable atmosfèrica (cel·la 2) de temperatura en superfície a precipitació (canviar la línia `variable=tas` per `variable=pr`). Torna a executar les cel·les i guarda't les gràfiques.
