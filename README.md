@@ -1,3 +1,15 @@
+### Nota prèvia
+
+Aquest repositori s'inspira en el projecte [CLIMAST](https://github.com/msantolariaotin/CLIMAST2) de María Santolaria Otín. A continuació un resum dels canvis fets:
+- S'ha simplificat l'estructura del repositori de manera que contingui només els fitxer realment necessaris per fer la pràctica.
+- S'ha actualitzat el codi dels scripts de Basemap (llibreria obsoleta) a Cartopy (llibreria moderna recomanada).
+- S'ha canviat el README, posant unes instruccions que indiquen clarament com es pot aconseguir generar els gràfics demanats en la pràctica.
+- S'ha creat un script per generar l'_ensemble mean_ a partir dels 32 fitxers de cada membre.
+- S'ha actualitzat l'script principal (jupyter notebook onemember) per tal de facilitar l'execució de l'script (únicament s'han de canviar a la segona cel·la dues variables)
+- S'ha corregit els càlculs i el plotting de l'script prinicpal pel cas de precipitació (per exemple hi havia conversions d'unitats mal fetes i eixos representant la precipitació en ºC enlloc de en mm/day)
+- S'ha implementat una cel·la per fer els càlculs i generar la gràfica de la tendència lineal pel perídoe recent (1950-2014 enlloc de 1850-2014)
+- S'ha implementat una cel·la per fer els càlculs i generar la gràfica de l'evolució temporal de les anòmalies pel cas de Barcelona (i comparada amb el cas regional i el cas global)
+
 ### Passos
 
 0.  Assegurar-se de tenir Python instal·lat fent en una terminal `python --version`.
