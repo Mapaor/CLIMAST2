@@ -1,6 +1,6 @@
 ### Nota prèvia
 
-Aquest repositori s'inspira en el projecte [CLIMAST](https://github.com/msantolariaotin/CLIMAST2) de María Santolaria Otín. A continuació un resum dels canvis que s'han fets:
+Aquest repositori s'inspira en el projecte [CLIMAST](https://github.com/msantolariaotin/CLIMAST2) de María Santolaria Otín. A continuació un resum dels canvis que s'han fet.
 - S'ha simplificat l'estructura del repositori de manera que contingui només els fitxer realment necessaris per fer la pràctica.
 - S'ha actualitzat el codi dels scripts de Basemap (llibreria obsoleta) a Cartopy (llibreria moderna recomanada).
 - S'ha canviat el README, posant unes instruccions que indiquen clarament com es pot aconseguir generar els gràfics demanats en la pràctica.
